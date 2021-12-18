@@ -1,0 +1,17 @@
+.bread-Container{
+    display:inline-block;
+    min-height:25px;
+    height:25px;
+    min-width:25px;
+    width: 30px;
+    padding:2px 2px 0 2px;
+    border:1px solid black;
+}
+.bread-content{
+    display: block;
+    min-height:5px;
+    background-color:black;
+    min-width:20px;
+    margin:2px 3px;
+    border-radius: 2.5px;
+}

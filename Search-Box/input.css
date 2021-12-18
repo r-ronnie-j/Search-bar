@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+.searchContainer{
+    display:inline-flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.searchDiv {
+    display:inline-block;
+    border: 2px solid black;
+    border-radius:5px;
+    max-width:80vw;
+    margin:4px;
+}
+.search {
+    border: none;
+    height:25px;
+    outline: none;
+}
+.searchButton{
+    border-left:solid black 1px;
+    border-right:none;
+    border-top:none;
+    border-bottom:none;
+    height:25px;
+    cursor:pointer;
+}

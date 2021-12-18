@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" type="text/css" href="Search-Box/input.css">
+    <link rel="stylesheet" type="text/css" href="barBread/barbread.css">
+    <link rel="stylesheet" type="text/css" href="dropdown/dropdown.css">
+    <script src="Search-Box/input.js" type="module"></script>
+    <script src="dropdown/dropdown.js" type="module"></script>
+    <script src="barBread/barbread.js" type="module"></script>
+    <script src="searchBar.js" type="module"></script>
+    <style>
+        .flexContainer0{
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(225, 233, 246);
+        }
+        .flexContainer1 {
+            display: flex;
+            justify-content: space-between;
+            align-items:flex-start;
+            padding: 5px;
+            height:fit-content;
+            border-bottom: 2px solid blue;
+        }
+        .flexContainer2 {
+            display: inline-flex;
+            align-items:flex-start;
+        }
+       
+        .flexItem {
+            margin: 0 5px 0 5px;
+            display: inline-block;
+        }
+        .hiding-icon {
+            display: none;
+        }
+        .flexBar0item{
+            display:block;
+            border-bottom: solid 1px black;
+            min-height: 25px;
+            height:fit-content;
+            margin-left: 25px;
+            margin:5px;
+        }
+        .inline-block{
+            display:inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=flexContainer0>
+        <div class="flexContainer1">
+            <div class="flexcontainer2 ">
+                <div class="flexItem ">
+                    <div class="searchContainer">
+                        <div class="searchDiv">
+                            <input type="text" size="20" class="search" script="">
+                            <button class="searchButton">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexItem ">
+                    Home
+                </div>
+                <div class="flexItem ">
+                    <div class="dropdown-drawer">
+                        <div class="Dropdown-container">
+                            <div class="dropdown">Option1</div>
+                            <button class="dropdownlogo">
+                                <div class="dropdownimage"></div>
+                            </button>
+                        </div>
+                        <div class="drawer-item">item 1</div>
+                        <div class="drawer-item">item 2</div>
+                        <div class="drawer-item">item 3</div>
+                        <div class="drawer-item">item 4</div>
+                        <div class="drawer-item">item 5</div>
+                    </div>
+                </div>
+                <div class="flexItem hiding-item ">
+                    Menu
+                </div>
+                <div class="flexItem hiding-item ">
+                    Laura
+                </div>
+                <div class="flexItem ">
+                    Lassan
+                </div>
+            </div>
+            <div class="flexcontainer2 ">
+                <div class="flexItem hiding-item ">
+                    GoTo
+                </div>
+                <div class="flexItem hiding-item ">
+                    Contact Us
+                </div>
+                <div class="flexItem hiding-icon ">
+                    <div class="bread-Container">
+                        <div class="bread-content"></div>
+                        <div class="bread-content"></div>
+                        <div class="bread-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
